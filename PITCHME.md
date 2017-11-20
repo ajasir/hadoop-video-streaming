@@ -100,3 +100,6 @@ $ ls -l /user/test
     * Simple and easy to set up
     * Functionally adequate (seeking is well supported)
     * Combine the benefits of HDFS and standard Web server streaming solutions
+#HSLIDE
+###### Thank you
+<hr>
