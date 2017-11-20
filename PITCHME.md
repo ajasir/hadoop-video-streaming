@@ -50,8 +50,8 @@ $ ls -l /user/test
 
 #HSLIDE
 - Fuse consist of two components
-   * Fuse kernel module
-   * *libfuse* userspace library
+    *  Fuse kernel module
+    *  *libfuse* userspace library
 - *libfuse* provides the reference implementation for communicating with the FUSE kernel module.
 - The concept of **FUSE** is to create a simple kernel module that interacts with the kernel, particularly the VFS, on behalf of non-privileged user applications and has an API that can be accessed from userspace.
 #HSLIDE
