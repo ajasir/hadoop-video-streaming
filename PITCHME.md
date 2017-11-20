@@ -77,7 +77,9 @@ $ ls -l /user/test
 -  A VFS can, for example, be used to access local and network storage devices transparently without the client application noticing the difference
 #VSLIDE
 -  It can be used to bridge the differences in Windows, classic Mac OS/macOS and Unix filesystems, so that applications can access files on local file systems of those types without having to know what type of file system they are accessing
+
 [![N|Solid](https://upload.wikimedia.org/wikipedia/commons/e/e1/Operating_system_placement.svg)](https://upload.wikimedia.org/wikipedia/commons/e/e1/Operating_system_placement.svg)
+
 #HSLIDE
 ###### Apache Server Configuration
 <hr>
