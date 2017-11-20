@@ -62,6 +62,7 @@ $ ls -l /user/test
 - The illustration corresponds to the “hello world” file system
 - At a high level the “hello world” file system is compiled to create a binary called “hello”
 - This binary is executed with a file system mount point of **/tmp/fuse**
+#HSLIDE
 - If the user executes an ls -l command against the mount point **(ls -l /tmp/fuse)**
     * Commands goes through glibc to the VFS
     * The VFS then goes to the FUSE module since the mount point corresponds to a FUSE based file system.
