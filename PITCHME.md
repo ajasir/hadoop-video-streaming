@@ -71,9 +71,11 @@ $ ls -l /user/test
 
 #VSLIDE
 ###### Virtual File System (VFS)
+<hr>
 - Abstraction layer on top of a more concrete file system
 - The purpose of a VFS is to allow client applications to access different types of concrete file systems in a uniform way
 -  A VFS can, for example, be used to access local and network storage devices transparently without the client application noticing the difference
+#VSLIDE
 -  It can be used to bridge the differences in Windows, classic Mac OS/macOS and Unix filesystems, so that applications can access files on local file systems of those types without having to know what type of file system they are accessing
 [![N|Solid](https://upload.wikimedia.org/wikipedia/commons/e/e1/Operating_system_placement.svg)](https://upload.wikimedia.org/wikipedia/commons/e/e1/Operating_system_placement.svg)
 #HSLIDE
@@ -81,14 +83,14 @@ $ ls -l /user/test
 <hr>
 - To access the mounted FUSE system and load content from video files
 - Streaming video content depends on the video format
-- For mp4 video, we can H264 Streaming Module an Apache plugin, which enables adaptive streaming
+- For mp4 video, we can use **H264 Streaming Module**, an apache plugin, which enables adaptive streaming
 
 #HSLIDE
 ###### Unresolved Challenges
 <hr>
 - Finding streaming codec for **.AVI** format
-- Testing the video streaming in test cluster. 
-- 
+- Testing the video streaming in cluster
+
 #HSLIDE
 ###### Conclusion
 <hr>
