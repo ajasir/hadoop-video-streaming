@@ -40,3 +40,10 @@
 - Allow HDFS to be mounted (on most flavors of Unix) as a standard file system 
 - Can perform almost all Unix utilities such as 'ls', 'cd', 'cp', 'mkdir', 'find', 'grep' etc....
 
+```sh
+## In Hadoop
+$ hadoop fs -ls /user/test
+## In FUSE
+$ ls -l /user/test
+```
+
