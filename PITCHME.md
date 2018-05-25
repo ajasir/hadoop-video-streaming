@@ -25,6 +25,7 @@
 - HDFS can in principle only be accessed through a Hadoop client, which the standard Apache server is not 
 #HSLIDE
 ###### How ?
+<hr>
 - How we can access the **HDFS** through a **Apache Server** ?
 #HSLIDE
 ###### Solution
